@@ -120,7 +120,12 @@ h1
 	font-size: 8vw;
  }
 
-
+.tx
+{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 img
 {
