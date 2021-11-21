@@ -107,7 +107,7 @@ border: 10px solid darkslategrey;
 border: 10px solid darkslategrey;
 }
 
-/*h1
+h1
 {
 	font-family: cursive;
 	font-size: 3em;
@@ -118,20 +118,9 @@ border: 10px solid darkslategrey;
 	width: 500px;
 	text-align: center;
 	font-size: 8vw;
- }*/
-
-.tx
-{
-	font-family: cursive;
-	font-size: 3em;
-	/*border-bottom: 2px solid pink;
-	border-top: 2px solid pink;
-	border-right: : 2px solid pink;
-	border-left: : 2px solid pink;*/
-	width: 500px;
-	text-align: center;
-	font-size: 8vw;
  }
+
+
 
 img
 {
