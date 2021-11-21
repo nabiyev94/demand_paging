@@ -1,9 +1,10 @@
- .container
+.container
 {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .y
 {
 border: 10px solid darkslategrey;
@@ -115,10 +116,9 @@ h1
 	border-top: 2px solid pink;
 	border-right: : 2px solid pink;
 	border-left: : 2px solid pink;
-	width: 800px;
+	width: 1000px;
 	text-align: center;
-/* 	box-shadow: 5px 5px 5px 5px; */
-}
+ }
 
 
 img
