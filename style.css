@@ -112,10 +112,10 @@ h1
 {
 	font-family: cursive;
 	font-size: 3em;
-	border-bottom: 2px solid pink;
+	/*border-bottom: 2px solid pink;
 	border-top: 2px solid pink;
 	border-right: : 2px solid pink;
-	border-left: : 2px solid pink;
+	border-left: : 2px solid pink;*/
 	width: 1500px;
 	text-align: center;
  }
