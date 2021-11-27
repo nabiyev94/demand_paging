@@ -3,7 +3,7 @@ var images = ['https://upload.wikimedia.org/wikipedia/en/e/e9/Crash_Course_logo.
 	      'https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/YTLogo_old_new_1680-1.gif?fit=800%2C600&ssl=1',
 	      'https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png', 
 	      'https://miro.medium.com/max/1000/1*VsJQWtP7CO7J-lFdNpDF1g.png" width="120', 
-	      'https://spl-ksa.univie.ac.at/fileadmin/user_upload/s_spl24/uspace_logo.png" width="150" height="150',
+	      /*'https://spl-ksa.univie.ac.at/fileadmin/user_upload/s_spl24/uspace_logo.png" width="150" height="150',
 	      'https://www.googlewatchblog.de/wp-content/uploads/google-translate-logo.jpg'.
 	      'http://blog.univie.ac.at/relaunch/wp-content/uploads/2016/07/ufind-1-300x130.png',
 	      'https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-large.jpg',
@@ -17,7 +17,7 @@ var images = ['https://upload.wikimedia.org/wikipedia/en/e/e9/Crash_Course_logo.
 	      'https://miro.medium.com/max/4416/1*WUF8JiQtYZ54xS7t9MhHew.png',
 	      'https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8384025b-c4de-4c39-a62d-d5bafb94e02a/1-can-i-use-viewports-opt.png',
 	      'https://greatestview.de/static/23d39d1d38f763ab259a7cb3470ea839/98a65/codepen-logo.webp',
-	      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'];
+	      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'*/];
 var i = 0;
 
 function prev(){
