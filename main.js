@@ -47,18 +47,18 @@ var links = ['https://www.youtube.com/',
 	    ];
 var i = 0;
 
-/*function prev(){
+function prev(){
 	if(i <= 0) i = images.length;	
 	i--;
 	if(i <= 0) i = images.length - 1;
 	setImgFirst();
-	i-;
+	i--;
 	if(i <= 0) i = images.length - 1;;
 	setImgSecond();
 	i--;
 	if(i <= 0) i = images.length - 1;
 	return setImgThird();				 
-}*/
+}
 
 function next(){
 	if(i >= images.length-1) i = -1;
