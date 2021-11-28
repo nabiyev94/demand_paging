@@ -46,8 +46,9 @@ var links = ['https://www.youtube.com/',
 	     'https://getbootstrap.com/'
 	    ];
 var i = 2;
-
+var x = 0;
 function prev(){
+	x = 1;
 	if(i < 0 || i == 2) i = images.length;	
 	else
 	{
@@ -66,10 +67,7 @@ function prev(){
 
 function next(){
 	if(i >= images.length-1) i = -1;
-	else
-	{
-	    i = i - 2;
-	}
+	if(x == 1) i = i + 2;
 	i++;
 	if(i > images.length-1) i = 0;
 	setImgFirst();
