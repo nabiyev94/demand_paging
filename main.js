@@ -51,13 +51,13 @@ function prev(){
 	if(i <= 0) i = images.length;	
 	i--;
 	if(i <= 0) i = images.length - 1;
-	setImgFirst();
+	setImgThird();
 	i--;
 	if(i <= 0) i = images.length - 1;;
 	setImgSecond();
 	i--;
 	if(i <= 0) i = images.length - 1;
-	return setImgThird();				 
+	return setImgFirst();				 
 }
 
 function next(){
