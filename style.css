@@ -58,8 +58,8 @@ a:hover {
 
 .prev {
   color: black;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border:none;
   outline:none;
   background:#888;
@@ -72,8 +72,8 @@ a:hover {
 
 .next {
   color: white;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border:none;
   outline:none;
   background:#888;
