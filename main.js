@@ -24,7 +24,7 @@ var my_link = document.querySelector('.my_link');
 var links = ['https://www.youtube.com/',
 	     'https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q', 
 	     'https://web.whatsapp.com/',
-	     'https://www.udemy.com/',
+	     /*'https://www.udemy.com/',
 	     'https://uspace.univie.ac.at/',
 	     'https://translate.google.com/#view=home&op=translate&sl=de&tl=en',
 	     'https://ufind.univie.ac.at/en/index.html',
@@ -39,7 +39,7 @@ var links = ['https://www.youtube.com/',
 	     'https://flexboxfroggy.com/#de/',
 	     'https://caniuse.com/?search=flexbox',
 	     'https://codepen.io/r-nabi94/project/editor/ZdJywY',
-	     'https://getbootstrap.com/'
+	     'https://getbootstrap.com/'*/
 	    ];
 var i = 0;
 
