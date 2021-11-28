@@ -48,7 +48,7 @@ var links = ['https://www.youtube.com/',
 var i = 2;
 
 function prev(){
-	if(i < 0) i = images.length;	
+	if(i < 0 || i == 2) i = images.length;	
 	i--;
 	if(i < 0) i = images.length - 1;
 	setImgThird();
