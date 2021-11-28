@@ -50,7 +50,7 @@ var x = 0;
 function prev(){
 	x = 1;
 	if(i < 0 ) i = images.length;	
-	if(i > 2)
+	if(i >= 2)
 	{
 	    i = i - 2;
 	}
