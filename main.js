@@ -45,7 +45,7 @@ var links = ['https://www.youtube.com/',
 	     'https://codepen.io/r-nabi94/project/editor/ZdJywY',
 	     'https://getbootstrap.com/'
 	    ];
-var i = 0;
+var i = 2;
 
 function prev(){
 	if(i <= 0) i = images.length;	
