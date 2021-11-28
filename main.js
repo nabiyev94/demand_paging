@@ -6,7 +6,7 @@ var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/
 	      'https://spl-ksa.univie.ac.at/fileadmin/user_upload/s_spl24/uspace_logo.png',
 	      'https://www.googlewatchblog.de/wp-content/uploads/google-translate-logo.jpg',
 	      'https://blog.univie.ac.at/relaunch/wp-content/uploads/2016/07/ufind-1-300x130.png',
-	      /*'https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-large.jpg',
+	      'https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-large.jpg',
 	      'https://www.jing.fm/clipimg/full/136-1361267_gmail-calendar-docs-sheets-slide-drawing-maps-gmail.png',
 	      'https://media1.faz.net/ppmedia/aktuell/karriere-hochschule/3999435006/1.5981187/top1_page_wide-retina/der-duden-und-die-deutsche.jpg',
 	      'https://logopond.com/logos/89290afb3f121c629883cf7e0038a6c2.png',
@@ -17,7 +17,7 @@ var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/
 	      'https://miro.medium.com/max/4416/1*WUF8JiQtYZ54xS7t9MhHew.png',
 	      'https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8384025b-c4de-4c39-a62d-d5bafb94e02a/1-can-i-use-viewports-opt.png',
 	      'https://greatestview.de/static/23d39d1d38f763ab259a7cb3470ea839/98a65/codepen-logo.webp',
-	      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'*/];
+	      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'];
 
 
 var my_link = document.querySelector('.my_link');
@@ -28,7 +28,7 @@ var links = ['https://www.youtube.com/',
 	     'https://uspace.univie.ac.at/',
 	     'https://translate.google.com/#view=home&op=translate&sl=de&tl=en',
 	     'https://ufind.univie.ac.at/en/index.html',
-	     /*'https://www.google.com/',
+	     'https://www.google.com/',
 	     'https://mail.google.com/mail/u/0/#inbox/FMfcgxwJWXPRKzfZqKshdGRCLjRScQbd/',
 	     'https://www.duden.de/rechtschreibung/Wert',
 	     'https://www.w3schools.com/',
@@ -39,7 +39,7 @@ var links = ['https://www.youtube.com/',
 	     'https://flexboxfroggy.com/#de/',
 	     'https://caniuse.com/?search=flexbox',
 	     'https://codepen.io/r-nabi94/project/editor/ZdJywY',
-	     'https://getbootstrap.com/'*/
+	     'https://getbootstrap.com/'
 	    ];
 var i = 0;
 
