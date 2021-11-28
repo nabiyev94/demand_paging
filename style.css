@@ -78,7 +78,9 @@ a:hover {
 	font-size: 20px;
 	color:#ddd;
 	cursor: pointer;
-	margin:10px auto;			 
+	margin:10px auto;
+	width: 100px;
+	height: 100px;
 }
 
 .btn:hover{
