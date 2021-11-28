@@ -63,13 +63,13 @@ function prev(){
 function next(){
 	if(i >= images.length-1) i = -1;
 	i++;
-	if(i >= images.length-1) i = 0;
+	if(i > images.length-1) i = 0;
 	setImgFirst();
 	i++;
-	if(i >= images.length-1) i = 0;
+	if(i > images.length-1) i = 0;
 	setImgSecond();
 	i++;
-	if(i >= images.length-1) i = 0;
+	if(i > images.length-1) i = 0;
 	return setImgThird();			 
 }
 
