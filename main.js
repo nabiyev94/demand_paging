@@ -49,6 +49,10 @@ var i = 2;
 
 function prev(){
 	if(i < 0 || i == 2) i = images.length;	
+	else
+	{
+	    i = i - 2;
+	}
 	i--;
 	if(i < 0) i = images.length - 1;
 	setImgThird();
