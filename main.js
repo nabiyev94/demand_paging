@@ -48,15 +48,15 @@ var links = ['https://www.youtube.com/',
 var i = 2;
 
 function prev(){
-	if(i <= 0) i = images.length;	
+	if(i < 0) i = images.length;	
 	i--;
-	if(i <= 0) i = images.length - 1;
+	if(i < 0) i = images.length - 1;
 	setImgThird();
 	i--;
-	if(i <= 0) i = images.length - 1;;
+	if(i < 0) i = images.length - 1;;
 	setImgSecond();
 	i--;
-	if(i <= 0) i = images.length - 1;
+	if(i < 0) i = images.length - 1;
 	return setImgFirst();				 
 }
 
