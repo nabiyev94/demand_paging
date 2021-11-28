@@ -11,7 +11,7 @@ var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/
 	      'https://media1.faz.net/ppmedia/aktuell/karriere-hochschule/3999435006/1.5981187/top1_page_wide-retina/der-duden-und-die-deutsche.jpg',
 	      'https://logopond.com/logos/89290afb3f121c629883cf7e0038a6c2.png',
 	      'https://cdn-5ce4a003f911c80f50818892.closte.com/wp-content/uploads/elementor/thumbs/css-tricks-okj85kqipeyjqjcdo23bwfef1axcby7ov3lv4nohag.png',
-	      'http://paletton.com/wiki/images/thumb/f/fd/Paletton-screenshot.jpg',
+	      'https://paletton.com/wiki/images/thumb/f/fd/Paletton-screenshot.jpg',
 	      'https://responsivedesign.is/wp-content/uploads/2019/06/Logo-GoogleFonts-color-background.png',
 	      'https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg',
 	      'https://miro.medium.com/max/4416/1*WUF8JiQtYZ54xS7t9MhHew.png',
