@@ -1,4 +1,6 @@
-var my_image = document.querySelector('.my_image');
+var my_image_first = document.querySelector('.my_image_first');
+var my_image_second = document.querySelector('.my_image_second');
+var my_image_third = document.querySelector('.my_image_third');
 var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/YTLogo_old_new_1680-1.gif?fit=800%2C600&ssl=1',
 	      'https://upload.wikimedia.org/wikipedia/en/e/e9/Crash_Course_logo.png',
 	      'https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png', 
@@ -20,7 +22,9 @@ var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/
 	      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'];
 
 
-var my_link = document.querySelector('.my_link');
+var my_link_first = document.querySelector('.my_link_first');
+var my_link_second = document.querySelector('.my_link_second');
+var my_link_third = document.querySelector('.my_link_third');
 var links = ['https://www.youtube.com/',
 	     'https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q', 
 	     'https://web.whatsapp.com/',
@@ -52,11 +56,31 @@ function prev(){
 function next(){
 	if(i >= images.length-1) i = -1;
 	i++;
-	return setImg();			 
+	if(i >= images.length-1) i = 0;
+	setImgFirst();
+	i++;
+	if(i >= images.length-1) i = 0;
+	setImgSecond();
+	i++;
+	if(i >= images.length-1) i = 0;
+	return setImgThird();			 
 }
 
-function setImg(){
-	my_link.setAttribute('href', links[i]);
-	return my_image.setAttribute('src', images[i]);
+function setImgFirst(){
+	my_link_first.setAttribute('href', links[i]);
+	return my_image_first.setAttribute('src', images[i]);
+	
+}
+
+
+function setImgSecond(){
+	my_link_second.setAttribute('href', links[i]);
+	return my_image_second.setAttribute('src', images[i]);
+	
+}
+
+function setImgThird(){
+	my_link_third.setAttribute('href', links[i]);
+	return my_image_third.setAttribute('src', images[i]);
 	
 }
