@@ -49,8 +49,8 @@ var i = 2;
 var x = 0;
 function prev(){
 	x = 1;
-	if(i < 0 || i == 2) i = images.length;	
-	else
+	if(i < 0 ) i = images.length;	
+	if(i > 2)
 	{
 	    i = i - 2;
 	}
