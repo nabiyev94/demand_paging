@@ -21,7 +21,7 @@ var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/
 
 
 var my_link = document.querySelector('.my_link');
-var links = ['https://www.youtube.com',
+var links = ['https://www.youtube.com/',
 	     'https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q', 
 	     'https://web.whatsapp.com/',
 	     'https://www.udemy.com/',
