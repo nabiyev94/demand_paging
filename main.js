@@ -61,7 +61,7 @@ function prev(){
 }
 
 function next(){
-	if(i >= images.length-1) i = -1;
+	if(i >= images.length-1 || i = images.length-3) i = -1;
 	i++;
 	if(i > images.length-1) i = 0;
 	setImgFirst();
