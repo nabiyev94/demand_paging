@@ -50,7 +50,14 @@ var i = 0;
 function prev(){
 	if(i <= 0) i = images.length;	
 	i--;
-	return setImg();			 
+	if(i <= 0) i = images.length;
+	setImgFirst();
+	i-;
+	if(i <= 0) i = images.length;;
+	setImgSecond();
+	i--;
+	if(i <= 0) i = images.length;
+	return setImgThird();				 
 }
 
 function next(){
