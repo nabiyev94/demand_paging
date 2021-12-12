@@ -17,7 +17,6 @@ var images = ['https://i0.wp.com/blog.indiefolio.com/wp-content/uploads/2017/08/
 	      'https://responsivedesign.is/wp-content/uploads/2019/06/Logo-GoogleFonts-color-background.png',
 	      'https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg',
 	      'https://miro.medium.com/max/4416/1*WUF8JiQtYZ54xS7t9MhHew.png',
-	      'https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8384025b-c4de-4c39-a62d-d5bafb94e02a/1-can-i-use-viewports-opt.png',
 	      'https://greatestview.de/static/23d39d1d38f763ab259a7cb3470ea839/98a65/codepen-logo.webp',
 	      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'];
 
@@ -41,7 +40,6 @@ var links = ['https://www.youtube.com/',
 	     'https://fonts.google.com/?preview.text_type=custom',
 	     'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
 	     'https://flexboxfroggy.com/#de/',
-	     'https://caniuse.com/?search=flexbox',
 	     'https://codepen.io/r-nabi94/project/editor/ZdJywY',
 	     'https://getbootstrap.com/'
 	    ];
@@ -57,7 +55,6 @@ function prev(){
 	{
 	    document.getElementById("Button").disabled = false;
 	}
-	x = 1;
 	if(i < 0 || i == 2) i = images.length;	
 	else
 	{
@@ -76,16 +73,23 @@ function prev(){
 
 function next(){
 	pressed = true;
-	if(i >= images.length-1) i = -1;
-	if(x == 1) i = i + 2;
 	i++;
-	if(i > images.length-1) i = 0;
+	if(i >= images.length - 1) 
+	{
+	    document.getElementById("Button").disabled = true;
+	}
 	setImgFirst();
 	i++;
-	if(i > images.length-1) i = 0;
+	if(i >= images.length - 1) 
+	{
+	    document.getElementById("Button").disabled = true;
+	}
 	setImgSecond();
 	i++;
-	if(i > images.length-1) i = 0;
+	if(i >= images.length - 1) 
+	{
+	    document.getElementById("Button").disabled = true;
+	}
 	return setImgThird();			 
 }
 
