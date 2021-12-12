@@ -47,7 +47,16 @@ var links = ['https://www.youtube.com/',
 	    ];
 var i = 2;
 var x = 0;
+var pressed = false;
 function prev(){
+	if(pressed == false)
+	{
+	    document.getElementById("Button").disabled = true;
+	}
+	else if(pressed == true)
+	{
+	    document.getElementById("Button").disabled = false;
+	}
 	x = 1;
 	if(i < 0 || i == 2) i = images.length;	
 	else
@@ -66,6 +75,7 @@ function prev(){
 }
 
 function next(){
+	pressed = true;
 	if(i >= images.length-1) i = -1;
 	if(x == 1) i = i + 2;
 	i++;
