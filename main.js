@@ -49,11 +49,11 @@ var pressed = false;
 function prev(){
 	if(pressed == false)
 	{
-	    document.getElementById("Button").disabled = true;
+	    document.getElementById("prev_button").disabled = true;
 	}
 	else if(pressed == true)
 	{
-	    document.getElementById("Button").disabled = false;
+	    document.getElementById("prev_button").disabled = false;
 	}
 	if(i < 0 || i == 2) i = images.length;	
 	else
@@ -76,19 +76,19 @@ function next(){
 	i++;
 	if(i >= images.length - 1) 
 	{
-	    document.getElementById("Button").disabled = true;
+	    document.getElementById("next_button").disabled = true;
 	}
 	setImgFirst();
 	i++;
 	if(i >= images.length - 1) 
 	{
-	    document.getElementById("Button").disabled = true;
+	    document.getElementById("next_button").disabled = true;
 	}
 	setImgSecond();
 	i++;
 	if(i >= images.length - 1) 
 	{
-	    document.getElementById("Button").disabled = true;
+	    document.getElementById("next_button").disabled = true;
 	}
 	return setImgThird();			 
 }
