@@ -59,10 +59,22 @@ function prev()
 		i = i - 2;
 	}
 	i--;
+	if(i == 0)
+	{
+		document.getElementById("prev_button").disabled = true;
+	}
 	setImgThird();
 	i--;
+	if(i == 0)
+	{
+		document.getElementById("prev_button").disabled = true;
+	}
 	setImgSecond();
 	i--;
+	if(i == 0)
+	{
+		document.getElementById("prev_button").disabled = true;
+	}
 	return setImgFirst();				 
 }
 
