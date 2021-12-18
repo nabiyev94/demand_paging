@@ -1,4 +1,4 @@
-//document.getElementById("prev_button").disabled = true;
+document.getElementById("prev_button").disabled = true;
 
 var my_image_first = document.querySelector('.my_image_first');
 var my_image_second = document.querySelector('.my_image_second');
