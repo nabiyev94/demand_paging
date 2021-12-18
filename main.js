@@ -1,4 +1,4 @@
-document.getElementById("prev_button").disabled = true;
+//document.getElementById("prev_button").disabled = true;
 
 var my_image_first = document.querySelector('.my_image_first');
 var my_image_second = document.querySelector('.my_image_second');
@@ -49,8 +49,10 @@ var links = ['https://www.youtube.com/',
 var i = 2;
 function prev()
 {
-	if(i == 2) 
+	if(i == 2)
+	{
 		document.getElementById("prev_button").disabled = true;
+	}
 	
 	if(i < 0 || i == 2) i = images.length;	
 	else
@@ -68,8 +70,8 @@ function prev()
 	return setImgFirst();				 
 }
 
-function next(){
-	pressed = true;
+function next()
+{
 	i++;
 	if(i >= images.length - 1) 
 	{
@@ -90,7 +92,8 @@ function next(){
 	return setImgThird();			 
 }
 
-function setImgFirst(){
+function setImgFirst()
+{
 	my_link_first.setAttribute('href', links[i]);
 	return my_image_first.setAttribute('src', images[i]);
 	
