@@ -49,30 +49,32 @@ var links = ['https://www.youtube.com/',
 var i = 2;
 function prev()
 {
-	if(i == 2)
+	if(i == 2 || i == 0)
 	{
 		document.getElementById("prev_button").disabled = true;
 	}
-	
-	if(i < 0 || i == 2) i = images.length;	
-	else
+	if(i >= 5)
 	{
-	    i = i - 2;
+		document.getElementById("prev_button").disabled = false;
+		i = i - 2;
 	}
 	i--;
-	if(i < 0) i = images.length - 1;
 	setImgThird();
 	i--;
-	if(i < 0) i = images.length - 1;;
 	setImgSecond();
 	i--;
-	if(i < 0) i = images.length - 1;
 	return setImgFirst();				 
 }
 
 function next()
 {
+	if(i == 0)
+	{
+		i = 2;
+	}
+	
 	i++;
+	
 	if(i >= images.length - 1) 
 	{
 	    document.getElementById("next_button").disabled = true;
