@@ -43,7 +43,9 @@ var links = ['https://www.youtube.com/',
 	     'https://codepen.io/r-nabi94/project/editor/ZdJywY',
 	     'https://getbootstrap.com/'
 	    ];
-document.getElementById("prev_button").disabled = true;
+
+if(i == 2) 
+	document.getElementById("prev_button").disabled = true;
 var i = 2;
 var x = 0;
 var pressed = false;
