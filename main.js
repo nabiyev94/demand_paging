@@ -1,3 +1,5 @@
+document.getElementById("prev_button").disabled = true;
+
 var my_image_first = document.querySelector('.my_image_first');
 var my_image_second = document.querySelector('.my_image_second');
 var my_image_third = document.querySelector('.my_image_third');
@@ -45,23 +47,11 @@ var links = ['https://www.youtube.com/',
 	    ];
 
 var i = 2;
-
-
-
-var x = 0;
-var pressed = false;
 function prev()
 {
 	if(i == 2) 
 		document.getElementById("prev_button").disabled = true;
-	if(pressed == false)
-	{
-	    document.getElementById("prev_button").disabled = true;
-	}
-	else if(pressed == true)
-	{
-	    document.getElementById("prev_button").disabled = false;
-	}
+	
 	if(i < 0 || i == 2) i = images.length;	
 	else
 	{
