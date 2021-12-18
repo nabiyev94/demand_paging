@@ -46,12 +46,14 @@ var links = ['https://www.youtube.com/',
 
 var i = 2;
 
-if(i == 2) 
-	document.getElementById("prev_button").disabled = true;
+
 
 var x = 0;
 var pressed = false;
-function prev(){
+function prev()
+{
+	if(i == 2) 
+		document.getElementById("prev_button").disabled = true;
 	if(pressed == false)
 	{
 	    document.getElementById("prev_button").disabled = true;
