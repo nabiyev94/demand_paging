@@ -44,9 +44,11 @@ var links = ['https://www.youtube.com/',
 	     'https://getbootstrap.com/'
 	    ];
 
+var i = 2;
+
 if(i == 2) 
 	document.getElementById("prev_button").disabled = true;
-var i = 2;
+
 var x = 0;
 var pressed = false;
 function prev(){
