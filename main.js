@@ -1,4 +1,4 @@
-//document.getElementById("prev_button").disabled = true;
+document.getElementById("prev_button").disabled = true;
 
 var my_image_first = document.querySelector('.my_image_first');
 var my_image_second = document.querySelector('.my_image_second');
@@ -55,23 +55,22 @@ function prev()
 	}
 	if(i >= 5)
 	{
-		document.getElementById("prev_button").disabled = false;
 		i = i - 2;
 	}
 	i--;
-	if(i == 0)
+	if(i <= 0)
 	{
 		document.getElementById("prev_button").disabled = true;
 	}
 	setImgThird();
 	i--;
-	if(i == 0)
+	if(i <= 0)
 	{
 		document.getElementById("prev_button").disabled = true;
 	}
 	setImgSecond();
 	i--;
-	if(i == 0)
+	if(i <= 0)
 	{
 		document.getElementById("prev_button").disabled = true;
 	}
@@ -85,7 +84,17 @@ function next()
 		i = 2;
 	}
 	
+	if(i >= 5)
+	{
+		document.getElementById("prev_button").disabled = false;
+	}
+	
 	i++;
+	
+	if(i >= 5)
+	{
+		document.getElementById("prev_button").disabled = false;
+	}
 	
 	if(i >= images.length - 1) 
 	{
@@ -93,12 +102,24 @@ function next()
 	}
 	setImgFirst();
 	i++;
+	
+	if(i >= 5)
+	{
+		document.getElementById("prev_button").disabled = false;
+	}
+	
 	if(i >= images.length - 1) 
 	{
 	    document.getElementById("next_button").disabled = true;
 	}
 	setImgSecond();
 	i++;
+	
+	if(i >= 5)
+	{
+		document.getElementById("prev_button").disabled = false;
+	}
+	
 	if(i >= images.length - 1) 
 	{
 	    document.getElementById("next_button").disabled = true;
