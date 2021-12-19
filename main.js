@@ -53,7 +53,7 @@ function prev()
 	{
 		document.getElementById("prev_button").disabled = true;
 	}
-	if(i >= 5)
+	if(i >= images.length - 1)
 	{
 		i = i - 2;
 	}
