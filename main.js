@@ -49,9 +49,14 @@ var links = ['https://www.youtube.com/',
 var i = 2;
 var next_already_pressed = false; 
 var prev_already_pressed = false;
+var next = true;
 
 function prev()
 {
+	if(next == false)
+	{
+		document.getElementById("next_button").disabled = false;
+	}
 	prev_already_pressed = true;
 	if(i == 2 || i == 0)
 	{
@@ -130,6 +135,7 @@ function next()
 	if(i >= images.length - 1) 
 	{
 	    document.getElementById("next_button").disabled = true;
+	    next = false;
 	}
 	return setImgThird();			 
 }
