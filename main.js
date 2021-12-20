@@ -88,6 +88,7 @@ function next()
 	if(var prev_already_pressed == true)
 	{
 		i = i + 2;
+		prev_already_pressed == false;
 	}
 	
 	if(i >= 5)
