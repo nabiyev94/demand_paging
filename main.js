@@ -52,7 +52,7 @@ var prev_already_pressed = false;
 
 function prev()
 {
-	var next_already_pressed = true;
+	var prevt_already_pressed = true;
 	if(i == 2 || i == 0)
 	{
 		document.getElementById("prev_button").disabled = true;
