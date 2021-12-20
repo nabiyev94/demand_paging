@@ -48,8 +48,11 @@ var links = ['https://www.youtube.com/',
 
 var i = 2;
 var next_already_pressed = false; 
+var prev_already_pressed = false;
+
 function prev()
 {
+	var next_already_pressed = true;
 	if(i == 2 || i == 0)
 	{
 		document.getElementById("prev_button").disabled = true;
@@ -82,9 +85,9 @@ function prev()
 function next()
 {
 	next_already_pressed = true;
-	if(i == 0)
+	if(var prev_already_pressed == true)
 	{
-		i = 2;
+		i = i + 2;
 	}
 	
 	if(i >= 5)
