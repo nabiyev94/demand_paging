@@ -56,6 +56,7 @@ function prev()
 	if(next == false)
 	{
 		document.getElementById("next_button").disabled = false;
+		next = true;
 	}
 	prev_already_pressed = true;
 	if(i == 2 || i == 0)
