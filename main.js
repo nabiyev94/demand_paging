@@ -85,7 +85,7 @@ function prev()
 function next()
 {
 	next_already_pressed = true;
-	if(var prev_already_pressed == true)
+	if(prev_already_pressed == true)
 	{
 		i = i + 2;
 		prev_already_pressed == false;
