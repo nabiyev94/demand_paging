@@ -47,15 +47,17 @@ var links = ['https://www.youtube.com/',
 	    ];
 
 var i = 2;
+var next_already_pressed = false; 
 function prev()
 {
 	if(i == 2 || i == 0)
 	{
 		document.getElementById("prev_button").disabled = true;
 	}
-	if(i >= images.length - 1)
+	if(next_already_pressed == true)
 	{
 		i = i - 2;
+		next_already_pressed = false;
 	}
 	i--;
 	if(i <= 0)
@@ -79,6 +81,7 @@ function prev()
 
 function next()
 {
+	next_already_pressed = true;
 	if(i == 0)
 	{
 		i = 2;
